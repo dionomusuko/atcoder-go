@@ -5,6 +5,7 @@ import (
 	"math"
 )
 
+//面積を求める関数
 func ellipse(radius float64) float64 {
 	return radius * 2 * math.Pi
 }
